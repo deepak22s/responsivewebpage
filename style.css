@@ -1,0 +1,98 @@
+@import url("https://fonts.google.com/specimen/Inter");
+@font-face {
+    font-family: Inter;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+
+
+.banner-image{
+    height: 45vh;
+    width: 46vh;
+    margin: 20px;
+}
+.banner-image-desktop{
+    height: 325px;
+    width: 750px;
+    align-self: flex-start;
+    background-position: cover;
+}
+.banner-heading{
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-right: 30px;
+    margin-right: 2.5cm;
+    padding-left: 0.5cm;
+}
+.banner-section-description{
+    color: rgb(110, 116, 122);
+    margin-left:px;
+    font-size: 15px;
+.container{
+    grid-column: start;
+}   
+
+}
+.readmore-button{
+    color: white;
+    background-color: hsl(5, 85%, 63%);
+    height: 50px;
+    width: 200px;
+    font-style: regular ;
+    margin-top: 25px;
+    border:5px ;
+    border-color: rgb(249, 251, 250);
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+
+    }
+    .NEW-section{
+        background-color: rgb(6, 28, 48);
+        margin: 20px;
+        
+    }
+    .new-heading{
+        color: hsl(36, 100%, 99%);
+        font-weight: 400;
+        font-size: 25px;
+        font-weight: 500;
+        
+        
+       
+    }
+    .h1new{
+        color: hsl(35, 77%, 62%);
+        font-size: 25px;
+        margin-bottom: 20px;
+        padding-top: 25px;
+        font-family: regular;
+        font-weight: 800;
+        margin-right: 20PX;
+    
+    }
+    .new-para{
+        color: hsl(33, 11%, 84%);
+        font-size: 15px;
+        margin-right: 20px;
+       margin-bottom:30px;
+       padding-top: 12px;
+    }
+    hr{
+        width: 95%;
+        border-color: rgb(203, 205, 207);
+        
+        
+    }
+    .card-image{
+        height: 180px;
+        padding: 10px;
+    }
+    .card-heading{
+        font-size: 20px;
+        font-weight: 800;
+    }
